@@ -661,6 +661,7 @@ def resource_path(relative_path):
         base_path = os.path.abspath(".")
     return os.path.join(base_path, relative_path)
 
+# main loop
 if __name__ == "__main__":
     root = ctk.CTk()
     root.title("gifbruhh")
